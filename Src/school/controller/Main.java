@@ -13,7 +13,7 @@ public class MainJava {
 
         if (choice == 1) {
             System.out.print("Enter Student Name: ");
-            sc.nextLine();  // Clear input buffer
+            sc.nextLine(); 
             String studentName = sc.nextLine();
 
             System.out.print("Enter Total Classes Held: ");
@@ -57,7 +57,7 @@ public class MainJava {
                 System.out.println("Teacher Name: " + teacherName);
                 System.out.println("Attendance Percentage: " + percentage + "%");
 
-                if (percentage >= 80) {  // Example rule
+                if (percentage >= 80) {  
                     System.out.println("Status: Good Attendance");
                 } else {
                     System.out.println("Status: Needs Improvement");
