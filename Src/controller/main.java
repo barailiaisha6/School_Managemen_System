@@ -8,7 +8,8 @@ public class Main {
         System.out.println("3. View Teachers");
         System.out.println("4. Add Teacher");
         System.out.println("5. View Fees Details");
-        System.out.println("6. Exit");
+        System.out.println("6. Attandance checking");
+        System.out.println("7. Exit");
         System.out.println("Enter your choice:");
 
         Scanner input = new Scanner(System.in);
@@ -31,6 +32,8 @@ public class Main {
                 System.out.println(" fees details");
                 break;
             case 6:
+                System.out.println("present and absent teachers and students");
+            case 7:
                 System.out.println("Exiting system");
                 break;
             default:
