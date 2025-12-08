@@ -33,6 +33,7 @@ public class Main {
                 break;
             case 6:
                 System.out.println("present and absent teachers and students");
+                break;
             case 7:
                 System.out.println("Exiting system");
                 break;
